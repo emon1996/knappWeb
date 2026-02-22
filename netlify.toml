@@ -1,6 +1,6 @@
 [build]
-  command = "cd knapp-real-estate && npm install && npm run build"
-  publish = "dist"
+  command = "npm install && npm run build"
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "20"
